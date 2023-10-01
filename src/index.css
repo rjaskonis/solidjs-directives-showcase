@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply w-full h-[100vh] border-slate-200 border-4 grid place-content-center;
+}
+
+a {
+    @apply text-blue-800 hover:text-blue-700;
+}
